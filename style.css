@@ -345,6 +345,14 @@ p {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-5);
 }
+.team-photo {
+  width: 100%;
+  aspect-ratio: 4 / 4.6;
+  object-fit: cover;
+  border-radius: calc(var(--radius-xl) - 0.4rem);
+  margin-bottom: var(--space-4);
+  background: var(--color-surface-offset);
+}
 
 .featured-card {
   background: color-mix(in oklab, var(--color-primary-highlight) 55%, var(--color-surface));
